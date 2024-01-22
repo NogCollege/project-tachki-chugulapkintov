@@ -9,6 +9,10 @@ a {
     color: white;
 }
 
+.body{
+    background-color: #F4F4F4;
+}
+
 .grid__zxc{
 
 .block__main__grid__zxc {
@@ -114,7 +118,7 @@ footer{
         .aside{
             margin-top: 50px;
             margin-bottom: 50px;
-            border: 1px solid white;
+            
             margin-right: 150px;
             width: 500px;
             h1{
@@ -220,7 +224,6 @@ footer{
         }
 
         .main{
-            border: 1px solid white;
             margin-top: 50px;
             margin-bottom: 50px;
             .about{
@@ -248,7 +251,7 @@ footer{
                 }
             }
             .line{
-                width: 480px;
+                width: 510px;
                 margin-top: 20px;
                 border: 1px rgb(87, 87, 87) solid;
                 margin-left: auto;
@@ -256,7 +259,84 @@ footer{
             }
 
             .hide{
-                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                p{
+                    color: #525252;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.questions{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    .queinput{
+        margin-left:150px;
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 50px;
+            font-size: 56px;
+        }
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+            color: #525252;
+        }
+
+        h4{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 20px;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .text{
+            background-color: #cccccc;
+            width: 450px;
+            border: 0;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            height: 75px;
+        }
+
+        a{
+            text-align: center;
+            padding-top: 25px;
+            color: white;
+            background-color: #1D1D1D;
+            height: 50px;
+            width: 450px;
+            border-radius: 15px;
+        }
+        a:hover{
+            text-align: center;
+            padding-top: 25px;
+            color: rgb(0, 0, 0);
+            background-color: #838383;
+            height: 50px;
+            width: 450px;
+            border-radius: 15px;
+            transition: 0.2s;
+        }
+
+        .checky{
+            .check{
+                margin-right: 15px;
+                width: 15px;
+                height: 15px;
+                margin-top: 20px;
+            }
+            label{
+                margin-bottom: 5px;
             }
         }
     }
