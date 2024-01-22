@@ -1,0 +1,139 @@
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid__zxc .block__main__grid__zxc .container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.grid__zxc .block__main__grid__zxc .block__grid {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 20px;
+  background-color: bisque;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  border-radius: 10px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .p__zxc__grid {
+  background-color: #F0F0F0;
+  padding: 5px;
+  width: 60px;
+  margin-left: 77%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .penus {
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  margin-top: 40px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .about {
+  margin-bottom: 40px;
+  display: flex;
+  width: 220px;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding-left: 34px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .p__zxc {
+  padding-left: 34px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .inf {
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .inf .ppppen {
+  display: flex;
+  flex-direction: row;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .inf .ppppen p {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .inf .ppppen h3 {
+  font-size: 30px;
+  align-items: center;
+  margin-right: 5px;
+}
+.grid__zxc .block__main__grid__zxc .block__grid .inf .aaaaapen {
+  padding: 10px;
+  background-color: #9F7437;
+  border-radius: 5px;
+  color: white;
+}
+
+.p__grid {
+  text-align: right;
+}
+
+footer {
+  background-color: #1D1D1D;
+}
+footer .content {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .content .aside {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  margin-right: 150px;
+  width: 500px;
+}
+footer .content .aside h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: 36px;
+}
+footer .content .aside .telephone {
+  display: flex;
+  flex-direction: row;
+}
+footer .content .aside .telephone .content-phone h2 {
+  font-size: 18px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer .content .aside .telephone .content-phone p {
+  margin-left: 5px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.63);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer .content .aside .telephone a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 100px;
+}
+footer .content .main {
+  border: 1px solid white;
+}/*# sourceMappingURL=style.css.map */
