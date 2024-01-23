@@ -229,6 +229,7 @@ body{
                     padding: 15px;
                     background-color: white;
                     color: black;
+                    border-radius: 10px;
                     
 
                     img {
@@ -238,6 +239,15 @@ body{
                         margin-right: 10px;
                     }
                 }
+
+                .cv:hover {
+                    background-color: rgb(117, 117, 117);
+                    color: white;
+                    // border-radius: 10px;
+                    
+                
+                }
+
                 .ul__btn {
                     display: flex;
                     margin-top: 40px;
@@ -335,7 +345,7 @@ body{
             }
             .aaaaapen {
                 padding: 10px;
-                background-color: #9F7437;
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgba(225,207,144,1) 65%, rgba(227,210,147,1) 100%);
                 border-radius: 5px;
                 color: white;
             }
@@ -543,7 +553,7 @@ footer{
         }
 
         .text{
-            background-color: #cccccc;
+            background-color: #ffffff;
             width: 450px;
             border: 0;
             border-radius: 15px;
@@ -577,10 +587,78 @@ footer{
                 width: 15px;
                 height: 15px;
                 margin-top: 20px;
+                background-color: #bb3939;
             }
             label{
                 margin-bottom: 5px;
             }
         }
     }
+}
+
+.upperblock{
+    color:#000000;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 36px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 800;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+
+    .inputmenu{
+        display: flex;
+        flex-direction: row;
+        margin-left: 65px;
+        margin-top: 30px;
+        .text{
+            background-color: #e7e7e7;
+            height: 80px;
+            width: 240px;
+            border: 0;
+            margin-left: 15px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
+        .checkboxmenu{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 350px;
+            margin-left: 100px;
+            .check{
+                width: 20px;
+                margin-right: 10px;
+                background-color: #e7e7e7;
+            }
+            p{
+                margin-top: 10px;
+                margin-right: 18px;
+            }
+        }
+        a{
+                padding-top: 27px;
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgba(225,207,144,1) 65%, rgba(227,210,147,1) 100%);
+                border-radius: 15px;
+                color: white;
+                width: 180px;
+                text-align: center;
+            
+        }
+        a:hover{
+            padding-top: 27px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgba(225,207,144,1) 45%, rgba(227,210,147,1) 80%);
+            border-radius: 15px;
+            color: rgb(0, 0, 0);
+            width: 180px;
+            text-align: center;
+            transition: 0.1s;
+        
+    }
+    }
+
 }
