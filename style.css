@@ -167,7 +167,6 @@ header .images2 img:hover {
   top: 90%;
   right: 15%;
 }
-
 a {
   text-decoration: none;
   color: white;
@@ -205,10 +204,8 @@ body {
   display: flex;
 }
 .grid__zxc .auotopark .btn__zxc a {
-  border: 1px solid rgb(255, 255, 255);
   margin-right: 40px;
   margin-top: 30px;
-  border-radius: 10px;
 }
 .grid__zxc .auotopark .btn__zxc .cv {
   display: flex;
@@ -222,6 +219,10 @@ body {
   height: 10px;
   margin-top: 7px;
   margin-right: 10px;
+}
+.grid__zxc .auotopark .btn__zxc a:hover {
+  margin-right: 40px;
+  margin-top: 30px;
 }
 .grid__zxc .auotopark .btn__zxc .cv:hover {
   background-color: rgb(117, 117, 117);
@@ -316,6 +317,43 @@ body {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(159, 116, 55) 0%, rgb(225, 207, 144) 65%, rgb(227, 210, 147) 100%);
   border-radius: 5px;
   color: white;
+}
+
+.msk {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 1208px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 148px;
+}
+.msk h3 {
+  width: 1000px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 36px;
+}
+.msk p {
+  width: 900px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #9F9F9F;
+  margin-bottom: 120px;
+}
+
+.rent {
+  display: grid;
+  grid-template-rows: 62px;
+  background-image: url(img/бг1.png);
+  width: 1860px;
+  height: 764px;
+}
+.rent h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .p__grid {
