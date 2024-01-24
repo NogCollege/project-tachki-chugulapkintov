@@ -167,6 +167,47 @@ header .images2 img:hover {
   top: 90%;
   right: 15%;
 }
+.upperblock .checkboxmenu input {
+  display: flex;
+  flex-direction: column;
+}
+.upperblock .checkboxmenu input .text {
+  background-color: #ffffff;
+  width: 450px;
+  border: 0;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  height: 75px;
+}
+.upperblock .checkboxmenu input a {
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+  background-color: #1D1D1D;
+  height: 50px;
+  width: 450px;
+  border-radius: 15px;
+}
+.upperblock .checkboxmenu input a:hover {
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(0, 0, 0);
+  background-color: #838383;
+  height: 50px;
+  width: 450px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.upperblock .checkboxmenu input .checky .check {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  background-color: #bb3939;
+}
+.upperblock .checkboxmenu input .checky label {
+  margin-bottom: 5px;
+}
 
 a {
   text-decoration: none;
@@ -205,10 +246,8 @@ body {
   display: flex;
 }
 .grid__zxc .auotopark .btn__zxc a {
-  border: 1px solid rgb(255, 255, 255);
   margin-right: 40px;
   margin-top: 30px;
-  border-radius: 10px;
 }
 .grid__zxc .auotopark .btn__zxc .cv {
   display: flex;
@@ -222,6 +261,10 @@ body {
   height: 10px;
   margin-top: 7px;
   margin-right: 10px;
+}
+.grid__zxc .auotopark .btn__zxc a:hover {
+  margin-right: 40px;
+  margin-top: 30px;
 }
 .grid__zxc .auotopark .btn__zxc .cv:hover {
   background-color: rgb(117, 117, 117);
@@ -318,6 +361,70 @@ body {
   color: white;
 }
 
+.msk {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 1208px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 148px;
+}
+.msk h3 {
+  width: 1000px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 36px;
+}
+.msk p {
+  width: 900px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #9F9F9F;
+  margin-bottom: 120px;
+}
+
+.rent {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  background-image: url(img/бг1.png);
+  width: 1800px;
+  height: 764px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+.rent h2 {
+  width: 1000px;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-top: 122px;
+  margin-bottom: 70px;
+}
+.rent .rent_p1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rent .rent_p1 .rent_text {
+  width: 760px;
+  color: white;
+}
+.rent .rent_p1 .rent_text h4 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.rent .rent_p1 .rent_text p {
+  width: 550px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+}
 .p__grid {
   text-align: right;
 }
@@ -604,4 +711,118 @@ footer .content .main .hide p {
   width: 180px;
   text-align: center;
   transition: 0.1s;
+}
+
+.dubai_moscow {
+  display: flex;
+  flex-direction: column;
+  width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-radius: 15px 15px 0px 0px;
+  background-image: url(img/bg\ \(6\).png);
+}
+.dubai_moscow .dubai {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.dubai_moscow .dubai .dutext {
+  color: white;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.dubai_moscow .dubai .dutext h2 {
+  font-size: 56px;
+}
+.dubai_moscow .dubai .dutext h4 {
+  font-size: 26px;
+  font-weight: 100;
+  margin-top: 70px;
+}
+.dubai_moscow .dubai .dutext p {
+  margin-top: 80px;
+  opacity: 0.4;
+  font-size: 19px;
+}
+.dubai_moscow .moscow {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+.dubai_moscow .moscow .mostext {
+  color: white;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.dubai_moscow .moscow .mostext h2 {
+  font-size: 56px;
+}
+.dubai_moscow .moscow .mostext h4 {
+  font-size: 24px;
+  font-weight: 100;
+}
+.dubai_moscow .moscow .mostext p {
+  margin-top: 50px;
+  opacity: 0.4;
+  font-size: 24px;
+  width: 500px;
+}
+.dubai_moscow .moscow .mostext .line {
+  border: 1px solid rgba(255, 255, 255, 0.116);
+  width: 800px;
+  margin-top: 30px;
+}
+.dubai_moscow .moscow .mostext .facts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.dubai_moscow .moscow .mostext .facts .item {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin-right: 50px;
+}
+.dubai_moscow .moscow .mostext .facts .item img {
+  height: 25px;
+  margin-top: 20px;
+}
+.dubai_moscow .moscow .mostext .facts .item h4 {
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 19px;
+}
+
+.signs {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  background-color: #ffffff;
+  justify-content: space-around;
+  width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-radius: 0px 0px 15px 15px;
+  margin-bottom: 80px;
+}
+.signs .logotipi {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.signs img {
+  margin-top: 50px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
