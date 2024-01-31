@@ -1,6 +1,18 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "PP Pangram Sans";
+  src: url("font/PPPangramSans-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("font/Unbounded-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "PP Pangram Sans";
   margin: 0;
   padding: 0;
   list-style: none;
@@ -8,8 +20,8 @@
 
 @media (max-width: 1530px) {
   body {
-    width: 320px;
-    border: 1px solid brown;
+    font-family: "PP Pangram Sans";
+    width: auto;
     background-color: #F4F4F4;
   }
   header {
@@ -22,7 +34,7 @@
   header h1 {
     color: white;
     font-weight: 100;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     font-size: 15px;
     width: 100px;
     margin-top: 50px;
@@ -58,11 +70,12 @@
     display: flex;
     background-image: url(img/mobilebg.png);
     height: 350px;
-    width: 320px;
+    width: auto;
     flex-direction: column;
     color: white;
   }
   .mainblock h1 {
+    font-family: "Unbounded";
     text-align: left;
     margin-top: 40px;
     font-size: 32px;
@@ -119,7 +132,7 @@
   }
   .upperblock h2 {
     font-size: 18px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Unbounded";
     font-weight: 700;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +198,8 @@
     margin-right: auto;
   }
   .grid__zxc .auotopark .h2__zxc h2 {
-    font-size: 28px;
+    font-size: 18px;
+    font-family: "Unbounded";
     width: 100px;
   }
   .grid__zxc .auotopark .h2__zxc {
@@ -371,16 +385,18 @@
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
-    width: 320px;
+    width: auto;
     height: 864px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
   }
   .rent h2 {
-    width: 320px;
-    font-size: 22px;
+    width: auto;
+    font-size: 18px;
     font-weight: 700;
     color: white;
+    font-family: "Unbounded";
     margin-left: 20px;
     margin-top: 82px;
     margin-bottom: 30px;
@@ -388,28 +404,28 @@
   .rent .rent_p1 {
     display: flex;
     flex-direction: column-reverse;
-    width: 320px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
   .rent .rent_p1 .rent_text {
-    width: 320px;
+    width: auto;
     color: white;
   }
   .rent .rent_p1 .rent_text h4 {
     font-size: 16px;
     font-weight: 400;
-    margin-top: 26px;
+    margin-top: 16px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
   }
   .rent .rent_p1 .rent_text p {
     width: 250px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     opacity: 0.8;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -420,7 +436,7 @@
   }
   .rent .rent_p1 .rent_inp .text1 {
     background-color: #ffffff;
-    width: 300px;
+    width: auto;
     border: 0;
     border-radius: 15px;
     margin-bottom: 10px;
@@ -442,7 +458,7 @@
   }
   .rent .rent_p1 .rent_inp .text2 {
     background-color: #ffffff;
-    width: 300px;
+    width: auto;
     border: 0;
     border-radius: 15px;
     margin-bottom: 10px;
@@ -699,7 +715,7 @@
     margin-top: 10px;
   }
   .premium {
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -734,7 +750,7 @@
   .thsteps {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -783,6 +799,7 @@
     margin-bottom: 30px;
     width: 200px;
     margin-left: 20px;
+    font-family: "Unbounded";
   }
   .discounts {
     display: flex;
@@ -797,17 +814,18 @@
   }
   .discounts .content .distext h2 {
     position: absolute;
-    top: 942%;
+    top: 967%;
     margin-left: 20px;
+    font-family: "Unbounded";
   }
   .discounts .content .distext h4 {
-    width: 300px;
+    width: auto;
     margin-left: 20px;
     font-weight: 100;
     margin-bottom: 15px;
   }
   .discounts .content .distext p {
-    width: 300px;
+    width: auto;
     margin-left: 20px;
     font-weight: 100;
     opacity: 0.6;
@@ -847,7 +865,7 @@
     border: 0;
     border-radius: 15px;
     margin-top: 50px;
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
@@ -873,7 +891,7 @@
     margin-left: 400px;
     position: absolute;
     left: -18%;
-    bottom: -855%;
+    bottom: -876%;
   }
   .discounts .content .discards .disblock .distextbt .distextbt2 a img {
     margin-top: 12px;
@@ -882,7 +900,7 @@
     margin-left: 15px;
   }
   .discounts .content .discards .disblock img {
-    width: 300px;
+    width: auto;
     height: 200px;
   }
   .services {
@@ -895,16 +913,17 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Unbounded";
   }
   .services .sercards {
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
   .services .sercards .serblock {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -928,7 +947,7 @@
   .reasons {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -956,14 +975,14 @@
     color: white;
   }
   .dubai_moscow .dubai {
-    width: 300px;
+    width: auto;
     display: flex;
     flex-direction: column-reverse;
     margin-left: auto;
     margin-right: auto;
   }
   .dubai_moscow .dubai .dutext {
-    width: 300px;
+    width: auto;
   }
   .dubai_moscow .dubai .dutext h4 {
     margin-top: 20px;
@@ -974,24 +993,24 @@
   }
   .dubai_moscow .dubai .dutext h2 {
     position: absolute;
-    top: 1297%;
-    width: 180px;
-    margin-left: 56px;
+    top: 1322%;
+    width: auto;
     text-align: center;
+    font-family: "Unbounded";
   }
   .dubai_moscow .dubai img {
-    width: 300px;
+    width: auto;
     margin-top: 100px;
   }
   .dubai_moscow .moscow {
-    width: 300px;
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
   }
   .dubai_moscow .moscow .mostext {
-    width: 300px;
+    width: auto;
   }
   .dubai_moscow .moscow .mostext h4 {
     margin-top: 20px;
@@ -1002,13 +1021,14 @@
   }
   .dubai_moscow .moscow .mostext h2 {
     position: absolute;
-    top: 1370%;
+    top: 1400%;
     width: 180px;
     margin-left: 56px;
     text-align: center;
+    font-family: "Unbounded";
   }
   .dubai_moscow .moscow img {
-    width: 300px;
+    width: auto;
     margin-top: 100px;
   }
   .dubai_moscow .moscow .facts {
@@ -1053,13 +1073,13 @@
     color: white;
     height: 120px;
     font-weight: 100;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     justify-content: space-between;
   }
   header h1 {
     color: white;
     font-weight: 100;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-left: 50px;
     margin-top: 30px;
   }
@@ -1070,13 +1090,13 @@
     justify-content: space-between;
   }
   header .navbar a {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-top: 45px;
     font-weight: 100;
     font-size: 14px;
   }
   header .navbar a:hover {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-top: 45px;
     font-weight: 100;
     font-size: 14px;
@@ -1103,7 +1123,7 @@
   }
   header .phone .number {
     margin-top: 15px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     font-size: 20px;
   }
   header .phone a {
@@ -1111,19 +1131,22 @@
     border: 2px solid white;
     border-radius: 5px;
     padding-left: 8px;
-    padding-top: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
     width: 100px;
     margin-left: 100px;
+    font-size: 12px;
   }
   header .phone a:hover {
     color: rgba(255, 255, 255, 0.479);
     border: 2px solid rgba(255, 255, 255, 0.479);
     border-radius: 5px;
-    transition: 0.1s;
     padding-left: 8px;
-    padding-top: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
     width: 100px;
     margin-left: 100px;
+    font-size: 12px;
   }
   header .images2 {
     margin-top: 30px;
@@ -1151,7 +1174,7 @@
     flex-direction: column;
   }
   .mainblock h1 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Unbounded";
     font-size: 88px;
     color: white;
     margin-left: auto;
@@ -1165,7 +1188,7 @@
     margin-bottom: 110px;
   }
   .mainblock p {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     font-size: 18px;
     color: white;
     margin-left: auto;
@@ -1263,18 +1286,19 @@
     margin-right: auto;
   }
   .grid__zxc .auotopark .h2__zxc h2 {
+    font-family: "Unbounded";
     font-size: 48px;
   }
   .grid__zxc .auotopark .h2__zxc {
     display: flex;
   }
   .grid__zxc .auotopark .h2__zxc a {
-    font-size: 20px;
+    font-size: 12px;
     border: 2px solid black;
     color: black;
     text-align: center;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 16px;
     width: 120px;
     margin-top: 10px;
     margin-left: 5%;
@@ -1419,6 +1443,29 @@
     color: #9F9F9F;
     margin-bottom: 120px;
   }
+  .msk {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    width: 1300px;
+    margin-right: auto;
+  }
+  .msk h3 {
+    font-family: "PP Pangram Sans";
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .msk p {
+    font-family: "PP Pangram Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-bottom: 40px;
+  }
   .rent {
     display: grid;
     grid-template-rows: 1fr 5fr;
@@ -1438,6 +1485,7 @@
     margin-right: auto;
     margin-top: 122px;
     margin-bottom: 70px;
+    font-family: "Unbounded";
   }
   .rent .rent_p1 {
     display: grid;
@@ -1564,7 +1612,7 @@
     width: 500px;
   }
   footer .content .aside h1 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     color: white;
     margin-bottom: 40px;
     font-weight: 100;
@@ -1577,21 +1625,23 @@
   footer .content .aside .telephone .content-phone h2 {
     font-size: 18px;
     color: white;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
   }
   footer .content .aside .telephone .content-phone p {
     margin-top: 7px;
     margin-left: 5px;
     font-size: 10px;
     color: rgba(255, 255, 255, 0.63);
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
   }
   footer .content .aside .telephone a {
     color: white;
     border: 2px solid white;
     border-radius: 5px;
     padding-left: 8px;
+    padding-right: 8px;
     padding-top: 8px;
+    font-size: 12px;
     width: 100px;
     margin-left: 100px;
   }
@@ -1715,17 +1765,16 @@
     flex-direction: column;
   }
   .questions .queinput h2 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-top: 50px;
+    font-family: "Unbounded";
     font-size: 56px;
   }
   .questions .queinput p {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-top: 10px;
     color: #525252;
   }
   .questions .queinput h4 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-top: 20px;
     font-size: 24px;
     margin-bottom: 40px;
@@ -1813,7 +1862,7 @@
   }
   .upperblock h2 {
     font-size: 36px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Unbounded";
     font-weight: 800;
     margin-left: 80px;
     margin-top: 40px;
@@ -1856,6 +1905,7 @@
     border-radius: 15px;
     color: white;
     width: 180px;
+    margin-left: 45px;
     text-align: center;
   }
   .upperblock .inputmenu a:hover {
@@ -1893,6 +1943,7 @@
   }
   .dubai_moscow .dubai .dutext h2 {
     font-size: 56px;
+    font-family: "Unbounded";
   }
   .dubai_moscow .dubai .dutext h4 {
     font-size: 26px;
@@ -1921,6 +1972,7 @@
   }
   .dubai_moscow .moscow .mostext h2 {
     font-size: 56px;
+    font-family: "Unbounded";
   }
   .dubai_moscow .moscow .mostext h4 {
     font-size: 24px;
@@ -1995,6 +2047,7 @@
     font-weight: 700;
     margin-bottom: 60px;
     margin-left: 15%;
+    font-family: "Unbounded";
   }
   .premium .cards {
     display: flex;
@@ -2059,10 +2112,11 @@
     margin-bottom: 100px;
   }
   .reasons h2 {
-    font-size: 78px;
+    font-size: 48px;
     text-align: left;
     margin-top: 20px;
     margin-bottom: 50px;
+    font-family: "Unbounded";
   }
   .reasons .reablocks {
     display: grid;
@@ -2094,9 +2148,10 @@
     margin-top: 100px;
   }
   .services h2 {
-    font-size: 78px;
+    font-size: 48px;
     text-align: left;
     margin-top: 20px;
+    font-family: "Unbounded";
     margin-bottom: 50px;
   }
   .services .sercards {
@@ -2152,16 +2207,16 @@
   .discounts .content .distext h2 {
     font-size: 48px;
     margin-top: 100px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Unbounded";
   }
   .discounts .content .distext h4 {
     font-size: 24px;
     margin-top: 40px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
   }
   .discounts .content .distext p {
     margin-top: 50px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     color: rgba(255, 255, 255, 0.753);
   }
   .discounts .content .discards {
@@ -2205,7 +2260,7 @@
   }
   .discounts .content .discards .disblock .distextbt {
     margin-top: 20px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     margin-left: 30px;
     font-size: 24px;
   }
@@ -2223,7 +2278,7 @@
     margin-left: 400px;
     position: absolute;
     right: 18%;
-    bottom: -539%;
+    bottom: -511%;
   }
   .discounts .content .discards .disblock .distextbt .distextbt2 a {
     margin-left: 15px;
@@ -2243,7 +2298,7 @@
   }
   .thsteps h2 {
     font-size: 48px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Unbounded";
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -2268,7 +2323,7 @@
     margin-top: 50px;
   }
   .thsteps .cardsteps .cardstep .text h4 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "PP Pangram Sans";
     font-size: 18px;
     margin-left: 20px;
   }
