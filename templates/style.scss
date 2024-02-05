@@ -112,7 +112,7 @@
        
             .about{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 
                 width: 800px;
                 margin-left: auto;
@@ -256,7 +256,7 @@
     
                 .btn__zxc {
                     display: flex;
-                   
+                   flex-direction: column;
                     a {
                         
                         margin-right: 40px;
@@ -1206,7 +1206,7 @@
             background-color: white;
             .logotipi{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             
             img{
                 width: 100px;
