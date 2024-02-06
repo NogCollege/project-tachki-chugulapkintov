@@ -11,8 +11,8 @@
        </div>
 
        <div class="images">
-       <img src="img/Vector (4).png" alt="">
-       <img src="img/Vector (5).png" alt="">
+       <img src="templates/img/Vector (4).png" alt="">
+       <img src="templates/img/Vector (5).png" alt="">
     </div>
 
     <div class="phone">
@@ -21,8 +21,8 @@
 </div>
 
 <div class="images2">
-    <img src="img/Group 89.png" alt="">
-    <img src="img/Group 71.png" alt="">
-    <img class="mobile" src="img/eba.png" alt="">
+    <img src="templates/img/Group 89.png" alt="">
+    <img src="templates/img/Group 71.png" alt="">
+    <img class="mobile" src="templates/img/eba.png" alt="">
 </div>
     </header>

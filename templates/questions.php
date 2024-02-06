@@ -1,5 +1,5 @@
 <div class="questions">
-        <img src="img/263452345 1.png" alt="">
+        <img src="templates/img/263452345 1.png" alt="">
         <div class="queinput">
             <h2>Остались вопросы?</h2>
             <p>Менеджер свяжется с вами в течение 15 минут и сможет ответить на все интересующие вопросы</p>
