@@ -8,7 +8,7 @@
             <a href="">
               <div class="cv">
                     
-                    <img src="img/Group 47.png" alt="">
+                    <img src="templates/img/Group 47.png" alt="">
                     <p>Внедорожник</p>
 
             </div>
@@ -16,7 +16,7 @@
             <a href="">
                 <div class="cv">
                       
-                    <img src="img/Group 47 (1).png" alt="">
+                    <img src="templates/img/Group 47 (1).png" alt="">
                     <p>Бизнес</p>
   
               </div>
@@ -24,7 +24,7 @@
               <a href="">
                 <div class="cv">
                       
-                    <img src="img/Group 48.png" alt="">
+                    <img src="templates/img/Group 48.png" alt="">
                     <p>Спорткар</p>
   
               </div>
@@ -32,7 +32,7 @@
               <a href="">
                 <div class="cv">
                       
-                    <img src="img/Group 47 (2).png" alt="">
+                    <img src="templates/img/Group 47 (2).png" alt="">
                     <p>Премиум</p>
   
               </div>
@@ -40,7 +40,7 @@
               <a href="">
                 <div class="cv">
                       
-                    <img src="img/Group 47 (3).png" alt="">
+                    <img src="templates/img/Group 47 (3).png" alt="">
                     <p>Комфорт</p>
   
               </div>
@@ -48,11 +48,24 @@
             
         </div>
     </div>
-            <div class="block__main__grid__zxc">
+            <!-- <div class="block__main__grid__zxc">
                 <div class="container">
-                <div class="block__grid">
+
+                <div class="block__grid"> -->
+                    <?php
+                    require_once 'controllers/connect.php';
+                        foreach ($data as $elem){
+                            $result.="<div class='block__main__grid__zxc'>"."<div class='block__grid'>"."<p class='p__zxc__grid'>".$elem['city']."</p>"."<img src='templates\img\image 22.png'>"."<h3>".$elem['full_name'].' '.$elem['year']."</h3>"."<p>"."<img class='logo_card' src='templates\img\qng.png'>".$elem['engin_capacity']." ".$elem['engin']."<img class='logo_card' src='templates\img\hp.png'>".$elem['horse']."</p>".$elem['cost_max']."</div>"."</div>".'<br>';
+                        }
+                        echo $result;
+                        ;
+
+                    ?>
+                <!-- </div> -->
+
+                <!-- <div class="block__grid">
                     <div class="p__zxc__grid">
-                    <p class="p__grid">дубай</p>
+                    <p class="p__grid"><??></p>
                 </div>
                     <img class="penus" src="img/image 22.png" alt="">
                     <p class="p__zxc">BMW X2, 2021</p>
@@ -220,8 +233,8 @@
                         <div class="ppppen"><p>от</p> <h3>7 150</h3> <p>руб/сут.</p></div>
                         <div class="block__underblock"></div>
     
-                    </div>
-                </div>
+                    </div> -->
+                <!-- </div> -->
             </div>
             </div>
         </div>

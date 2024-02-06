@@ -4,7 +4,7 @@
         <div class="cards">
 
             <div class="card">
-                <img src="img/bg.png" alt="">
+                <img src="templates/img/bg.png" alt="">
                 <div class="textbt">
 
                     <div class="textbt1">
@@ -12,13 +12,13 @@
                         <p>Предоставляем аренду премиальных автомобилей для свадьбы с водителем</p>
                     </div>
 
-                    <img src="img/Group 58.png" alt="">
+                    <img src="templates/img/Group 58.png" alt="">
                 
                 </div> 
             </div>
 
             <div class="card">
-                <img src="img/bg (1).png" alt="">
+                <img src="templates/img/bg (1).png" alt="">
                 <div class="textbt">
 
                     <div class="textbt1">
@@ -27,7 +27,7 @@
                     </div>
                     
                 
-                        <img src="img/Group 58.png" alt="">
+                        <img src="templates/img/Group 58.png" alt="">
                 
                 
                 </div> 
