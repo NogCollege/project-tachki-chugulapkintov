@@ -275,9 +275,11 @@
     display: none;
   }
   .grid__zxc .block__main__grid__zxc .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    width: 300pxd;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
   }
   .grid__zxc .block__main__grid__zxc .block__grid {
@@ -1066,7 +1068,7 @@
     background-color: white;
   }
 }
-@media (min-width: 1840px) {
+@media (min-width: 1531px) {
   header {
     display: flex;
     flex-direction: row;
@@ -1353,9 +1355,8 @@
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
   }
   .grid__zxc .block__main__grid__zxc .block__grid {
     margin-top: 30px;
