@@ -11,14 +11,14 @@
                     <a href="#">Заказать звонок</a>
                 </div>
                 <div class="adress">
-                    <img src="img/Vector (6).png" alt=""><p>г. Ногинск, ул. Ремесленная, д. 1178А</p>
+                    <img src="templates/img/Vector (6).png" alt=""><p>г. Ногинск, ул. Ремесленная, д. 1178А</p>
                 </div>
                 <div class="mail">
-                    <img src="img/Vector (7).png" alt=""><p>info@арендатачек.рф</p>
+                    <img src="templates/img/Vector (7).png" alt=""><p>info@арендатачек.рф</p>
                 </div>
                 <div class="social"
                 >
-                    <img class="first" src="img/Vector.svg" alt=""><img class="second" src="img/Vector (1).svg" alt="">
+                    <img class="first" src="templates/img/Vector.svg" alt=""><img class="second" src="templates/img/Vector (1).svg" alt="">
                 </div>
             </div>
 
@@ -67,5 +67,4 @@
         </div>
 
     </footer>
-    </body>
-</html>
+    

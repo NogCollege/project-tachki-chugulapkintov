@@ -321,17 +321,22 @@
         }
     
     .block__main__grid__zxc {
+        max-width: 700px;
+        margin-left: auto;
+            margin-right: auto;
         hr{
             display: none;
         }
         
         .container {
-           
-           
-            display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr 1fr;
-        margin-bottom: 50px;
+            max-width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            margin-bottom: 50px;
         
         }
         .block__grid{
@@ -348,7 +353,8 @@
             height: 430px;
             border-radius: 10px;
             .p__zxc__grid {
-                margin-bottom: -10%;
+                margin-top: 0%;
+                margin-bottom: 5%;
                 background-color: #F0F0F0;
                 padding: 5px;
                 width: 60px;
@@ -359,7 +365,7 @@
             .penus {
                 margin-left: auto;
                 margin-right: auto;
-                width: 215px ;
+                width: px ;
                 margin-top: 40px;
             }
             .about{
@@ -1219,7 +1225,7 @@
 }
 
 
-@media (min-width:1840px) {
+@media (min-width:1531px) {
     
 
 
@@ -1558,9 +1564,9 @@ body{
         width: 1300px;
         margin-left: auto;
         margin-right: auto;
-        display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+   
     }
     .block__grid{
         margin-top: 30px;
@@ -1601,8 +1607,7 @@ body{
         }
         .p__zxc {
             padding-left: 34px;
-            padding-top: 
-            50px;
+            padding-top:50px;
             padding-bottom:10px;
             font-size: 24px;
         }
@@ -1671,7 +1676,7 @@ body{
     margin-left: auto;
     margin-top: 40px;
     margin-left: auto;
-    width: 1300px;
+    width: 500px;
     margin-right: auto;
     h3{
         font-family: "PP Pangram Sans";

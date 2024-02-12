@@ -7,7 +7,7 @@
         </div>
         <div class="discards">
             <div class="disblock">
-                <img src="img/bg (2).png" alt="">
+                <img src="templates/img/bg (2).png" alt="">
                 <div class="distextbt">
 
                     <div class="distextbt1">

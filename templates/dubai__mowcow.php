@@ -7,11 +7,11 @@
         <p>We strive to make car rental in Dubai affordable for everyone. That's why you can rent cars in our office:
             Economy. Sedans and SUVs you can rent from 149 AED ($40) per day.Comfort. Sports cars, vans, SUVs, sedans with comfortable saloon can be rented from 219 AED ($59) per day.Premium. Premium SUVs and prestigious convertibles can be rent from AED 439 ($119) per day.</p>
     </div>
-    <img src="img/Rectangle 34.png" alt="">
+    <img src="templates/img/Rectangle 34.png" alt="">
 </div>
 
 <div class="moscow">
-    <img src="img/Rectangle 36.png" alt="">
+    <img src="templates/img/Rectangle 36.png" alt="">
     <div class="mostext">
         <h2>Аренда машин в Москве</h2>
         <p>Для получения более подробной информации о прокате авто можно посетить наш офис, оставить заявку на сайте или позвонить
@@ -21,17 +21,17 @@
 <div class="facts">
 
     <div class="item">
-        <img src="img/8.png" alt="">
+        <img src="templates/img/8.png" alt="">
         <h4>Более 8 лет на рынке проката авто</h4>
     </div>
 
     <div class="item">
-        <img src="img/24.png" alt="">
+        <img src="templates/img/24.png" alt="">
         <h4>>24  премиальных и эксклюзивных моделей</h4>
     </div>
 
     <div class="item">
-        <img src="img/Vector (8).png" alt="">
+        <img src="templates/img/Vector (8).png" alt="">
         <h4>Автопарк стоимостью более 250 млн. рублей</h4>
     </div>
 
