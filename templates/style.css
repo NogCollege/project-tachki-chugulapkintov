@@ -26,7 +26,6 @@
   }
   header {
     display: flex;
-    flex-direction: row;
     background-color: #1D1D1D;
     color: white;
     height: 120px;
@@ -35,10 +34,12 @@
     color: white;
     font-weight: 100;
     font-family: "PP Pangram Sans";
-    font-size: 15px;
-    width: 100px;
-    margin-top: 50px;
-    margin-left: 10px;
+    font-size: 20px;
+    width: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: -32%;
   }
   header .navbar {
     display: none;
@@ -51,9 +52,10 @@
   }
   header .images2 {
     display: flex;
-    flex-direction: row;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   header .images2 img {
     width: 50px;
@@ -68,9 +70,12 @@
   }
   .mainblock {
     display: flex;
-    background-image: url(img/mobilebg.png);
-    height: 350px;
+    background-image: url(img/бг.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     width: auto;
+    height: 572px;
     flex-direction: column;
     color: white;
   }
@@ -81,8 +86,8 @@
     font-size: 32px;
     font-weight: 700;
     width: 280px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .mainblock .arenda {
     font-size: 16px;
@@ -90,12 +95,12 @@
     width: 248px;
     margin-top: 20px;
     margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .mainblock .line {
     border: 0.9px solid white;
-    opacity: 0.2;
+    opacity: 0.4;
     width: 280px;
     margin-left: auto;
     margin-right: auto;
@@ -104,24 +109,26 @@
   .mainblock .about {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
   .mainblock .about .aboutitem {
     display: flex;
-    margin-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .mainblock .about .aboutitem img {
     height: 26px;
     width: 26px;
-    margin-top: 5px;
-    margin-right: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
   }
   .mainblock .about .aboutitem p {
-    width: 140px;
+    width: 200px;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 15px;
   }
   .upperblock {
     color: #000000;
@@ -194,6 +201,7 @@
   .grid__zxc .auotopark {
     text-decoration: none;
     margin-top: 10%;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -223,14 +231,18 @@
   }
   .grid__zxc .auotopark .btn__zxc {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
   }
   .grid__zxc .auotopark .btn__zxc a {
-    margin-right: 40px;
+    margin-right: 11px;
     margin-top: 30px;
     text-decoration: none;
   }
   .grid__zxc .auotopark .btn__zxc .cv {
+    width: 111px;
     display: flex;
     padding: 15px;
     background-color: white;
@@ -248,12 +260,17 @@
     font-weight: 700;
   }
   .grid__zxc .auotopark .btn__zxc a:hover {
-    margin-right: 40px;
+    margin-right: 11px;
     margin-top: 30px;
+    text-decoration: none;
   }
   .grid__zxc .auotopark .btn__zxc .cv:hover {
     background-color: rgb(117, 117, 117);
     color: white;
+    width: 111px;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
   }
   .grid__zxc .auotopark .btn__zxc .ul__btn {
     display: flex;
@@ -312,8 +329,8 @@
   .grid__zxc .block__main__grid__zxc .block__grid .penus {
     margin-left: auto;
     margin-right: auto;
-    width: px;
-    margin-top: 40px;
+    width: 215px;
+    margin-top: 10%;
   }
   .grid__zxc .block__main__grid__zxc .block__grid .about {
     margin-bottom: 40px;
@@ -326,7 +343,7 @@
   }
   .grid__zxc .block__main__grid__zxc .block__grid .p__zxc {
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 5%;
     padding-bottom: 10px;
     font-size: 24px;
   }
@@ -342,7 +359,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 30px;
-    margin-top: 24px;
+    margin-top: 14px;
   }
   .grid__zxc .block__main__grid__zxc .block__grid .inf .ppppen p {
     margin-right: 5px;
@@ -373,6 +390,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
+    margin-bottom: -10%;
   }
   .msk h3 {
     width: 280px;
@@ -406,7 +424,8 @@
     font-weight: 700;
     color: white;
     font-family: "Unbounded";
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 82px;
     margin-bottom: 30px;
   }
@@ -724,15 +743,25 @@
     margin-top: 10px;
   }
   .premium {
-    width: auto;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
+  }
+  .premium h2 {
+    display: flex;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .premium .cards {
     display: flex;
     flex-direction: column;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .premium .cards .card {
     display: flex;
@@ -741,6 +770,7 @@
     border: 0;
     border-radius: 15px;
     margin-top: 15px;
+    max-width: 300px;
   }
   .premium .cards .card .textbt .textbt1 {
     width: 200px;
@@ -755,18 +785,26 @@
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: auto;
   }
   .thsteps {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .thsteps .cardsteps {
     display: flex;
     flex-direction: column;
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-  }
-  .thsteps .cardsteps {
-    display: flex;
-    flex-direction: column;
   }
   .thsteps .cardsteps .cardstep {
     display: flex;
@@ -806,39 +844,54 @@
   .thsteps h2 {
     margin-top: 40px;
     margin-bottom: 30px;
-    width: 200px;
-    margin-left: 20px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Unbounded";
   }
   .discounts {
     display: flex;
     background-image: url(img/qwerty.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 970px;
   }
   .discounts .content {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    margin-bottom: 10%;
   }
   .discounts .content .distext {
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    height: 280px;
   }
   .discounts .content .distext h2 {
     position: absolute;
     top: 967%;
-    margin-left: 20px;
     font-family: "Unbounded";
   }
   .discounts .content .distext h4 {
-    width: auto;
-    margin-left: 20px;
+    width: 280px;
     font-weight: 100;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .discounts .content .distext p {
-    width: auto;
-    margin-left: 20px;
+    width: 280px;
     font-weight: 100;
     opacity: 0.6;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .discounts .content .discards {
     display: flex;
@@ -850,6 +903,8 @@
     flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .discounts .content .discards .disbutton .pravo {
     rotate: 180deg;
@@ -861,10 +916,13 @@
   }
   .discounts .content .discards .disbutton h4 {
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .discounts .content .discards .disbutton p {
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .discounts .content .discards .disblock {
     display: flex;
@@ -873,8 +931,8 @@
     height: 400px;
     border: 0;
     border-radius: 15px;
-    margin-top: 50px;
-    width: auto;
+    margin-top: -55%;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -910,7 +968,7 @@
   }
   .discounts .content .discards .disblock img {
     width: auto;
-    height: 200px;
+    height: 150px;
   }
   .services {
     display: flex;
@@ -939,8 +997,8 @@
   }
   .services .sercards .serblock img {
     display: flex;
-    width: auto;
-    height: auto;
+    width: 280px;
+    height: 190px;
     flex-shrink: 0;
   }
   .services .sercards .serblock .sertextbt {
@@ -956,20 +1014,25 @@
   .reasons {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .reasons .reablocks {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .reasons .reablocks .item {
     display: flex;
-    flex-direction: row;
     margin-top: 20px;
+  }
+  .reasons .reablocks .item img {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
   }
   .reasons .reablocks .item .text {
     width: 160px;
@@ -977,10 +1040,18 @@
     margin-right: auto;
     margin-top: 5px;
   }
+  .reasons .reablocks .item .text h4 {
+    margin-bottom: 10px;
+  }
   .dubai_moscow {
     display: flex;
     flex-direction: column;
     background-image: url(img/zalupa.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1600px;
     color: white;
   }
   .dubai_moscow .dubai {
@@ -992,6 +1063,7 @@
   }
   .dubai_moscow .dubai .dutext {
     width: auto;
+    width: 280px;
   }
   .dubai_moscow .dubai .dutext h4 {
     margin-top: 20px;
@@ -1008,8 +1080,9 @@
     font-family: "Unbounded";
   }
   .dubai_moscow .dubai img {
-    width: auto;
-    margin-top: 100px;
+    margin-top: 0px;
+    width: 280px;
+    height: auto;
   }
   .dubai_moscow .moscow {
     width: auto;
@@ -1020,6 +1093,7 @@
   }
   .dubai_moscow .moscow .mostext {
     width: auto;
+    width: 280px;
   }
   .dubai_moscow .moscow .mostext h4 {
     margin-top: 20px;
@@ -1039,6 +1113,8 @@
   .dubai_moscow .moscow img {
     width: auto;
     margin-top: 100px;
+    width: 280px;
+    height: auto;
   }
   .dubai_moscow .moscow .facts {
     display: flex;
@@ -1048,7 +1124,7 @@
   .dubai_moscow .moscow .facts .item {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .dubai_moscow .moscow .facts .item h4 {
     margin-bottom: 10px;
@@ -1061,16 +1137,31 @@
     height: 30px;
   }
   .signs {
+    margin-top: -6%;
     background-color: white;
+    width: 320px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: -3%;
   }
   .signs .logotipi {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    width: 320px;
+    height: 350px;
   }
   .signs .logotipi img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin-right: 15px;
+    margin-left: 15px;
     background-color: white;
   }
 }
@@ -1389,7 +1480,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 280px;
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .grid__zxc .block__main__grid__zxc .block__grid .about {
     margin-bottom: 40px;
@@ -1401,7 +1492,7 @@
   }
   .grid__zxc .block__main__grid__zxc .block__grid .p__zxc {
     padding-left: 34px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-size: 24px;
   }
@@ -1458,7 +1549,7 @@
     margin-left: auto;
     margin-top: 40px;
     margin-left: auto;
-    width: 500px;
+    width: 1100px;
     margin-right: auto;
   }
   .msk h3 {
@@ -2298,11 +2389,12 @@
   .thsteps {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .thsteps h2 {
     font-size: 48px;
