@@ -16,14 +16,14 @@
                     </div>
 
                     <div class="distextbt2">
-                        <a href=""><img src="img/grr.png" alt=""></a>
+                        <a href=""><img src="templates/img/grr.png" alt=""></a>
                     </div>
                 
                 </div> 
             </div>
             <div class="disbutton">
-                <a class="levo" href=""><img src="img/strelka vlevo.png" alt=""></a>
-                <a class="pravo" href=""><img src="img/strelka vlevo.png" alt=""></a>
+                <a class="levo" href=""><img src="templates/img/strelka vlevo.png" alt=""></a>
+                <a class="pravo" href=""><img src="templates/img/strelka vlevo.png" alt=""></a>
                 <h4>1</h4><p>/5</p>
             </div>
         </div>

@@ -41,5 +41,10 @@ require_once('templates/footer.php');
 
 require_once('controllers/connect.php');
 ?>
+
+<script src="templates/filtr.js">
+
+</script>
         </body>
     </html>
+    

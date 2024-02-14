@@ -259,6 +259,17 @@
     font-size: 13px;
     font-weight: 700;
   }
+  .grid__zxc .auotopark .btn__zxc .cv_active {
+    background: #1f1f1f;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  .grid__zxc .auotopark .btn__zxc .cv_active img {
+    filter: invert(100%);
+  }
+  .grid__zxc .auotopark .btn__zxc .cv_active:hover {
+    background: #565656;
+  }
   .grid__zxc .auotopark .btn__zxc a:hover {
     margin-right: 11px;
     margin-top: 30px;
@@ -1423,6 +1434,17 @@
     height: 10px;
     margin-top: 7px;
     margin-right: 10px;
+  }
+  .grid__zxc .auotopark .btn__zxc .cv_active {
+    background: #1f1f1f;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  .grid__zxc .auotopark .btn__zxc .cv_active img {
+    filter: invert(100%);
+  }
+  .grid__zxc .auotopark .btn__zxc .cv_active:hover {
+    background: #565656;
   }
   .grid__zxc .auotopark .btn__zxc a:hover {
     margin-right: 40px;

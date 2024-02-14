@@ -1,0 +1,50 @@
+* {
+  font-family: "PP Pangram Sans";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "PP Pangram Sans";
+  width: auto;
+  background-color: #F4F4F4;
+}
+
+.main1 {
+  height: 900px;
+  width: 100%;
+}
+
+.title {
+  width: 500px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images1 {
+  width: 1500px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.full-inf {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=personal.css.map */
