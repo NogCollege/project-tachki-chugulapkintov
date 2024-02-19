@@ -3,7 +3,7 @@
        <h1>АРЕНДА<br>ТАЧЕК.РФ</h1>
 
        <div class="navbar">
-        <a href="#">Подобрать авто</a>
+        <a href="index.php">Подобрать авто</a>
         <a href="#">Условия</a>
         <a href="#">Цены</a>
         <a href="">О нас</a>

@@ -12,9 +12,16 @@ body{
 }
 
 .main1{
-height: 900px;
+height: 100%;
 width: 100%;
 
+}
+.namebtn{
+    
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title{
@@ -25,18 +32,119 @@ width: 100%;
  margin-left: auto;
  margin-right: auto;
 }
-.images1{
-width: 1500px;
-margin-bottom: 10px;
-margin-left: auto;
-margin-right: auto;
+.exit{
+        font-size: 12px;
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+        height: 25px;
+        padding-top: 5px;
+        width: 120px;
+        margin-top: 65px;
+        
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        &:hover{
+            transition: 0.2s;
+        font-size: 12px;
+        border: 2px solid rgb(107, 107, 107);
+        color: rgb(107, 107, 107);
+        text-align: center;
+        height: 25px;
+        padding-top: 5px;
+        width: 120px;
+        margin-top: 65px;
+        
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
+       
+        
+}
+
+.centr-slider{
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    
 }
 .slider-img{
-    width: 300px;
+  display: flex;
+  overflow: hidden;
+  
+ 
+}
+
+.images1{
+    margin: 0px;
+    display: flex;
+    transform: translateX(-0px);
+    transition: 0.5s;
+    
+}
+
+
+.slider-img{
+    
+    display: flex;
+    width: 700px;
+    height: auto;
+    padding: 0px;
+    margin-right: 20px;
+    border-radius: 20px;
+    
+    
+  
+}
+.image{
+    width: 100%;
     border-radius: 20px;
 }
 
+.btn-slider{
+  width: 690px;  
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 230px;
+    position: relative;
+    
+     
+   
+
+}
+.slider-arrow{
+    background: none;
+    border: 0;
+}
+
+.slider-prev{
+    opacity: 0.6;
+    
+    &:hover{
+        opacity: 0.9;
+        transition: 0.2s;
+    }
+
+}
+
+.slider-next{
+    opacity: 0.6;
+    &:hover{
+        opacity: 0.9;
+        transition: 0.2s;
+    }
+}
+
+
 .full-inf{
+    display: flex;
+    flex-direction: column;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -45,5 +153,80 @@ margin-right: auto;
 .car-name{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: -3%;
+}
+
+.characteristic{
+    display: flex;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    img{
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-right: 4px;
+        width: 20px;
+        height: 20px; 
+        
+    }
+    
+    .fuel{
+        font-size: 22px;
+        
+    }
+
+    .engine{
+        font-size: 22px;
+    }
+}
+
+.description{
+    display: flex;
+    width: 650px;
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.btn-price{
+display: flex;
+flex-direction: row;
+margin-left: 15px;
+margin-top: 15px;
+margin-bottom: 50px;
+
+}
+
+.button{
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgb(229, 209, 134) 65%, rgb(228, 205, 124) 100%);
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+
+        &:hover{
+            transition: 0.2s;
+        margin-top: 20px;
+        padding: 20px;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgba(225,207,144,1) 65%, rgba(227,210,147,1) 100%);
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.541);
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        }
+}
+
+.price{
+height: 20px;
+font-size: 20px;
+padding: 20px;
+
+margin-top: auto;
+margin-bottom: 0px;
+
 }

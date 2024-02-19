@@ -24,8 +24,13 @@
 <main class="main1">
 
 <div class="container">
+        <div class="namebtn">
         <h2 class="title">Бронирование машины</h2>
+        <a class="exit" href="index.php#autopark"><p>Назад</p></a>
+        </div>
         <div class="personal">
+          <div class="centr-slider">
+          <div class="slider-img">
           <div class="images1">
             <?php
             $dir = "templates/img/photos/" . $id_car+1 . '-' . $data[$id_car]['title'];
@@ -33,23 +38,31 @@
             foreach ($files as $file) {
               $file_path = $dir . '/' . $file;
               if (is_file($file_path) && in_array(pathinfo($file_path, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-                echo '<img class="slider-img" src="' . $file_path . '" ;>';
+                echo '<div class="slider-img"> <img class="image" src="' . $file_path . '" ;></div>';
               }
             }
             ?>
           </div>
+          </div>
+          </div>
+
+          <div class="btn-slider">
+            <button type="button" class="slider-arrow slider-prev"><img src="templates/img/levo.png" alt=""> </button>
+            <button type="button" class="slider-arrow slider-next"><img src="templates/img/pravo.png" alt=""></button>
+          </div>
+
           <div class="full-inf">
             <h2 class="car-name"><?= $data[$id_car]['full_name']?></h2>
             <div class="characteristic">
               <img src="templates/img/Vector (2).png" alt="">
-              <p class="fuel"><?=$data[$id_car]['engin_capacity']?> л/бензин</p>
+              <p class="fuel"><?=$data[$id_car]['engin_capacity']?>л/<?=$data[$id_car]['engin']?></p>
               <img src="templates/img/Vector (3).png" alt="">
               <p class="engine"><?=$data[$id_car]['horse']?> л.с.</p>
             </div>
-            <p class="description"><?=$data[$id_car]['full_description']?></p>
+            <div> <p class="description"><?=$data[$id_car]['full_description']?></p> </div>
             <div class="btn-price">
-              <a class="button" href="<?= "personal.php?id_car=" . $id_car?>">Забронировать</a>
-              <p class="price">от<span><?=$data[$id_car]['cost_med']?></span>руб/сут.</p>
+              <a class="button" href="<?= "personal.php?id_car=" . $id_car+1?>">Забронировать</a>
+              <p class="price">от <span><?=$data[$id_car]['cost_med']?></span>руб/сут.</p>
             </div>
           </div>
         </div>
@@ -61,3 +74,5 @@
 
 </body>
 </html>
+
+<script src="templates/slider.js"></script>

@@ -1,7 +1,7 @@
 <div class="grid__zxc">
         <div class="auotopark">
         <div class="h2__zxc">
-            <h2>Наш автопарк</h2>
+            <h2 id="autopark">Наш автопарк</h2>
             <a class="cv_all" href=""><p>Смотреть все</p></a>
         </div>
         <div class="btn__zxc">
