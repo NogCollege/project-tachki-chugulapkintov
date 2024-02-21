@@ -1,5 +1,5 @@
 <?php
-$path = '../../ArendaTachek\templates\img\photos/';
+$path = 'templates\img\photos/';
 
 $host = 'localhost';
 $user = 'root';
