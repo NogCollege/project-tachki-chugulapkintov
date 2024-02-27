@@ -39,6 +39,7 @@
               $file_path = $dir . '/' . $file;
               if (is_file($file_path) && in_array(pathinfo($file_path, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
                 echo '<div class="slider-img"> <img class="image" src="' . $file_path . '" ;></div>';
+                
               }
             }
             ?>

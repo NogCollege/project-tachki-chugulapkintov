@@ -16,3 +16,4 @@ $result = mysqli_query($link, $query) or die(mysqli_error($link));
 //Проверяем что же нам отдала база данных, если null – то какие-то проблемы:
 for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
 $result='';
+?>

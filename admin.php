@@ -17,7 +17,6 @@
 <th>cost med</th>
 <th>cost min</th>
 <th>full description</th>
-<th>Photo</th>
 </tr>
 
 <?php
@@ -36,7 +35,7 @@ $cost_max = $_POST['cost_max'];
 $cost_med = $_POST['cost_med'];
 $cost_min = $_POST['cost_min'];
 $full_description = $_POST['full_description'];
-$Photo = $uploadDir;
+
 
 $query = "INSERT INTO catalog SET 
 ava_rent='$ava_rent', title='$title', city='$city', category='$category', full_name='$full_name', year='$year', engin='$engin', engin_capacity='$engin_capacity', horse='$horse', 
@@ -85,6 +84,7 @@ $result .= '<td>' . $elem['cost_max'] . '</td>';
 $result .= '<td>' . $elem['cost_med'] . '</td>';
 $result .= '<td>' . $elem['cost_min'] . '</td>';
 $result .= '<td>' . $elem['full_description'] . '</td>';
+$result .= '<td><a href="./controllers/upload-photos.php?id=' . $elem['id'] .'">Фотографии</a></td>';
 $result .= '<td><a href="?delete=' . $elem['id'] .'">удалить</a></td>';
 $result .= '</tr>';
 }
@@ -128,6 +128,11 @@ return '<input title="' . $title . '" value="' . $value
 <? 
 require_once('controllers/create_folders.php');
 ?>
-<? 
-require_once('controllers/upload-photos.php');
-?>
+
+
+
+
+
+
+
+
