@@ -24,3 +24,12 @@
 
 🌐Пополняемая библиотека знаний с полезной информацией: https://mrstefanie.notion.site/Web-51717ea6a96f4072a70a4dbf4ad373ff
 
+
+
+
+
+http://q90574kp.beget.tech/
+http://q90574kp.beget.tech/
+http://q90574kp.beget.tech/
+http://q90574kp.beget.tech/
+http://q90574kp.beget.tech/

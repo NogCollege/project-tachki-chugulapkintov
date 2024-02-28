@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 19 2024 г., 13:44
+-- Время создания: Фев 21 2024 г., 13:36
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
@@ -42,7 +42,7 @@ CREATE TABLE `catalog` (
   `cost_med` text NOT NULL,
   `cost_min` text NOT NULL,
   `full_description` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Дамп данных таблицы `catalog`
@@ -56,6 +56,29 @@ INSERT INTO `catalog` (`id`, `ava_rent`, `title`, `city`, `category`, `full_name
 (5, 1, 'toyota', 'Ногинск', 'suv', 'Toyota RAV4', 2017, 'Бензин', '2.0 ', '146 ', '4000 ', '3500 ', '3000 ', 'японский кроссовер-долгожитель является самым практичным и одним из самых продуманных семейных автомобилей для перевозки багажа. Задние спинки сидений складывают быстро и очень просто. Когда они будут в нижнем положении вам откроется удовлетворительная картина, то есть- 2078 куб. литра для перевозки любых грузов или для других целей.'),
 (6, 1, 'mercedes-benz', 'Ногинск', 'sport', 'Mercedes-Benz CLS 63 AMG', 2017, 'Бензин', '5.5 ', '585 ', '9000 ', '8500 ', '8000 ', 'Мercedes-Benz CLS – удачное сочетание классического стиля, комфорта и спортивных характеристик.\r\nТо, что он «Мерседес», любой определит с первого взгляда, даже если убрать огромную звезду с решетки радиатора. В то же время ни «лицом», ни «осанкой» купе CLS не повторяет ни одну из родственных моделей.');
 
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `deleted`
+--
+
+CREATE TABLE `deleted` (
+  `id` int NOT NULL,
+  `ava_rent` tinyint(1) NOT NULL,
+  `title` text NOT NULL,
+  `city` text NOT NULL,
+  `category` text NOT NULL,
+  `full_name` text NOT NULL,
+  `year` int NOT NULL,
+  `engin` text NOT NULL,
+  `engin_capacity` text NOT NULL,
+  `horse` text NOT NULL,
+  `cost_max` text NOT NULL,
+  `cost_med` text NOT NULL,
+  `cost_min` text NOT NULL,
+  `full_description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
 --
 -- Индексы сохранённых таблиц
 --
@@ -67,6 +90,12 @@ ALTER TABLE `catalog`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `deleted`
+--
+ALTER TABLE `deleted`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT для сохранённых таблиц
 --
 
@@ -74,7 +103,13 @@ ALTER TABLE `catalog`
 -- AUTO_INCREMENT для таблицы `catalog`
 --
 ALTER TABLE `catalog`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+
+--
+-- AUTO_INCREMENT для таблицы `deleted`
+--
+ALTER TABLE `deleted`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

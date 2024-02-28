@@ -1031,9 +1031,11 @@
                     height: 280px;
                     h2{
                         position: absolute;
-                        top:967%;
-                        
+                        top:862%;
+                        margin-left: 20px;
+                        color: rgb(255, 255, 255);
                         font-family: "Unbounded";
+                        font-size: 20px;
                         
                     }
                     h4{
@@ -1126,8 +1128,8 @@
                                 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,116,55,1) 0%, rgba(225,207,144,1) 65%, rgba(227,210,147,1) 100%);
                                 margin-left: 400px;
                                 position: absolute;
-                                left: -18%;
-                                bottom: -876%;
+                                left: -5%;
+                                bottom: -778%;
                                 
                             a{
                                 
@@ -1238,9 +1240,10 @@
             background-position-y: center;
             background-repeat: no-repeat;
             width: auto;
-            height: 1600px;
+            height: 2000px;
             color: white;
             .dubai{
+                margin-top: 55%;
                 width: auto;
                 display: flex;
                 flex-direction: column-reverse;
@@ -1259,10 +1262,13 @@
                     }
                     h2{
                         position: absolute;
-                        top: 1322%;
+                        top: 1200%;
+                        text-align: left;
                         width: auto;
-                        text-align: center;
+                     
                         font-family: "Unbounded";
+                        font-size: 18px;
+                        width: 300px;
                     }
                 }
                 img{
@@ -1270,6 +1276,7 @@
                     margin-top: 0px;
                     width: 280px;
                     height: auto;
+                    
                 }
             }
             .moscow{
@@ -1291,18 +1298,19 @@
                     }
                     h2{
                         position: absolute;
-                        top: 1400%;
-                        width: 180px;
-                        margin-left: 56px;
-                        text-align: center;
+                        top: 1283%;
+                        width: 200px;
+                        font-size: 20PX;
+                        text-align: left;
                         font-family: "Unbounded";
                     }
                 }
                 img{
                     width: auto;
-                    margin-top: 100px;
+                    margin-top: 110px;
                     width: 280px;
-                    height: auto;
+                    height: 200px;
+
                 }
                 .facts{
                     display: flex;
@@ -2697,7 +2705,7 @@ margin-right: auto;
                         margin-left: 400px;
                         position: absolute;
                         right: 18%;
-                        bottom: -511%;
+                        bottom: -471%;
                     a{
                         margin-left: 15px;
                         margin-top: 15px;

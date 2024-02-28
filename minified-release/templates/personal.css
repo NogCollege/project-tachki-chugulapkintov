@@ -1,0 +1,205 @@
+* {
+  font-family: "PP Pangram Sans";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "PP Pangram Sans";
+  width: auto;
+  background-color: #F4F4F4;
+}
+
+.main1 {
+  height: 100%;
+  width: 100%;
+}
+
+.namebtn {
+  display: flex;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  width: 500px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exit {
+  font-size: 12px;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  height: 25px;
+  padding-top: 5px;
+  width: 120px;
+  margin-top: 65px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exit:hover {
+  transition: 0.2s;
+  font-size: 12px;
+  border: 2px solid rgb(107, 107, 107);
+  color: rgb(107, 107, 107);
+  text-align: center;
+  height: 25px;
+  padding-top: 5px;
+  width: 120px;
+  margin-top: 65px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centr-slider {
+  display: flex;
+  justify-content: center;
+  margin-left: 1%;
+}
+
+.slider-img {
+  display: flex;
+  overflow: hidden;
+}
+
+.images1 {
+  margin: 0px;
+  display: flex;
+  transform: translateX(0px);
+  transition: 0.5s;
+}
+
+.slider-img {
+  display: flex;
+  width: 700px;
+  height: auto;
+  padding: 0px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.btn-slider {
+  width: 690px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 230px;
+  position: relative;
+}
+
+.slider-arrow {
+  background: none;
+  border: 0;
+}
+
+.slider-prev {
+  opacity: 0.6;
+}
+.slider-prev:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.slider-next {
+  opacity: 0.6;
+}
+.slider-next:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.full-inf {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: -3%;
+}
+
+.characteristic {
+  display: flex;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.characteristic img {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+}
+.characteristic .fuel {
+  font-size: 22px;
+}
+.characteristic .engine {
+  font-size: 22px;
+}
+
+.description {
+  display: flex;
+  width: 650px;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.btn-price {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(159, 116, 55) 0%, rgb(229, 209, 134) 65%, rgb(228, 205, 124) 100%);
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  transition: 0.2s;
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(159, 116, 55) 0%, rgb(225, 207, 144) 65%, rgb(227, 210, 147) 100%);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.541);
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.price {
+  height: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=personal.css.map */
